@@ -4,6 +4,11 @@ Control your Android TV or Google TV from your Android phone over Wi-Fi, with op
 
 **[Download the latest EZMote APK](https://github.com/VibesEZ/EZMote-Releases/releases/latest)**
 
+Current release: **v1.0.1 / build 2**. This update improves Wi-Fi/Bluetooth
+recovery, prevents volume commands from building up behind delayed TV feedback,
+and keeps the remote layout fixed while connections change. Connection activity
+appears in the TV header icon; tap it for details and recovery actions.
+
 This public repository contains download documentation, signed APK releases and checksums. The Android application source is maintained privately. GitHub's automatic Source code archives contain this repository's documentation, not the app source.
 
 ## Requirements
@@ -21,7 +26,10 @@ TV developer mode, wireless debugging and a companion app are not needed. Option
 3. Open EZMote, choose **Set up my TV**, select your TV and enter the code shown on it.
 4. Add Bluetooth backup using the guided setup, or skip it.
 
-The public channel starts at **version 1.0 / build 1**. Uninstall older internal HID Nexus Remote builds before installing EZMote; this resets app settings and saved TV pairings. Future public releases use increasing versions and the same signing key so in-place updates can keep settings.
+Existing public **v1.0** users can install this update over the existing app and
+keep preferences and TV pairing. Use **Settings → App updates** or download the
+latest signed APK. The public channel began at v1.0 / build 1; older internal
+HID Nexus Remote installations remain outside that channel.
 
 ## Controls and appearance
 
